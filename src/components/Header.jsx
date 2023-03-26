@@ -29,7 +29,7 @@ export const Header = () => {
                 </ul>
             </nav>
             <img className="w-full md:hidden" src="/images/image-hero-mobile.jpg" alt="image-hero-mobile" />
-            <img className="hidden md:block" src="/images/image-hero-desktop.jpg" alt="image-hero-desktop" />
+            <img className="hidden md:block w-full" src="/images/image-hero-desktop.jpg" alt="image-hero-desktop" />
         </header>
     )
 }
